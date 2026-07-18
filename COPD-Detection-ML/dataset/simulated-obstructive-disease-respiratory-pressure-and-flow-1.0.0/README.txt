@@ -1,3 +1,12 @@
+## 📂 Dataset
+
+This repository includes a **small representative sample** of the dataset for demonstration purposes to keep the repository lightweight and within GitHub size limits.
+
+The complete dataset contains raw and processed respiratory pressure and flow measurements collected under multiple COPD simulation conditions.
+
+
+Dataset includes:
+
 'PQ_ProcessedData'
 Folder contains fully processed data from pressure & flow sensor array.
 Files are saved in these folders by subject number ('Subject01' through to 'Subject20'), PEEP used ('0cmH2O', '4cmH2O', or '8cmH2O') and COPD simultor size ('0ml', '200ml', '250ml', or '300ml') e.g. 'MayTrial2023_Subject01_0cmH2O_0ml.csv' through to 'MayTrial2023_Subject20_8cmH2O_300ml.csv'
@@ -28,4 +37,5 @@ Files with raw ADC counts (e.g. 'COPDTrial2023_Subject1_0cmH2O_0mL_raw.csv') con
 'PQ_Loop.m' is the MATLAB code used to plot figure-1
 
 
-
+For the complete dataset, please refer to the original dataset source:
+**Kaggle:** <(Connect me)>
