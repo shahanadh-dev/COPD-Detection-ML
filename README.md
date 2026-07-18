@@ -92,8 +92,8 @@ COPD-Detection-ML
 │       ├── manage.py
 │       └── db.sqlite3
 │
-├── requirements.txt
 └── docs/
+    └── report/
 ```
 
 ---
