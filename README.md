@@ -78,22 +78,22 @@ Prediction Result
 # 📂 Project Structure
 
 ```
-PROJECT-COPD
+COPD-Detection-ML
 │
-├── Dataset-COPD/
+├── dataset/
 │   ├── PQ_ProcessedData/
 │   ├── PQ_RawData/
 │   └── COPD_Demographic.csv
 │
-├── Model-COPD/
+├── app/
 │   └── GUI/
 │       ├── basics/
 │       ├── GUI/
 │       ├── manage.py
-│       ├── requirements.txt
 │       └── db.sqlite3
 │
-└── Report-COPD/
+├── requirements.txt
+└── docs/
 ```
 
 ---
@@ -125,13 +125,13 @@ PROJECT-COPD
 Clone the repository
 
 ```bash
-git clone https://github.com/shahanadh-dev/COPD-Prediction-System.git
+git clone https://github.com/shahanadh-dev/COPD-Detection-ML.git
 ```
 
 Navigate to the project
 
 ```bash
-cd COPD-Prediction-System/Model-COPD/GUI
+cd COPD-Detection-ML/app/GUI
 ```
 
 Install dependencies
@@ -156,13 +156,13 @@ http://127.0.0.1:8000
 
 # 📸 Application Preview
 
-Include screenshots of:
+Included screenshots (docs/report) of:
 
 - Home Page
 - Prediction Form
 - Prediction Result
 - Model Output
-- Data Visualization (if available)
+- Data Visualization
 
 ---
 
